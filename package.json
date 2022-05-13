@@ -2,6 +2,10 @@
   "name": "kyle-password-pad",
   "version": "0.0.1",
   "description": "pin password input pad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleBing/kyle-password-pad"
+  },
 
   "main": "dist/kyle-password-pad.ssr.js",
   "browser": "dist/kyle-password-pad.esm.js",
