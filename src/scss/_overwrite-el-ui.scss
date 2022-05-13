@@ -1,0 +1,22 @@
+@import "utility";
+input[type=number] {
+  padding-right: 0!important;
+}
+
+.el-input__inner{
+  padding: 0 0 0 6px !important;
+}
+.el-main{
+  padding: 0 !important;
+}
+
+
+// DIALOG
+.el-dialog{
+}
+
+.v-modal{
+  opacity: 1 !important;
+  background: rgba(0,0,0,0.3) !important;
+  @include backdrop-filter(saturate(180%) blur(10px) !important);
+}
